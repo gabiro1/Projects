@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+/* background: linear-gradient(to bottom,#000,#000,#fff); */
+background: #000;
+background-size: cover;
+background-repeat: 0;
+}
+.logo{
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    font-size: larger;
+
+}
+.logo:hover{
+    color: lightseagreen; 
+}
+p{
+    color: white;
+
+}
+span{
+    color: yellowgreen;
+}
+.navigation ul li{
+float: left;
+}
+ 

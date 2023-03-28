@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    font-size: 16px;
+    overflow-x: hidden;
+    font-weight: normal;
+}
+ul,li{
+    list-style: none;
+    display: inline-block;
+}
+span{
+    color: #f9004d;
+}
+.container{
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width: 768px){
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
+.f-left{
+float: left;
+}
+.f-right{
+    float: right;
+}
+a, a:hover{
+    text-decoration: none;
+}
+#top-nav{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid rgba(255 255 255 / 30%);
+    transition: 0.5s;
+}
+#top-nav .logo-wrapper{
+    font-size: 24px;
+    font-weight: 600;
+}
+#top-nav .logo-wrapper .logo{
+    color: #1f1f1f;
+}
+.navbar-wrapper li .link-item{
+    color: #1f1f1f;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+} 
+.navbar-wrapper li .active a{
+    color: #f9004d;
+}
+#hero-area{
+    position: relative;
+}
+#hero-area .hero-cover{
+    background: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+
+}
+#hero-area .hero-cover .hero-content-box{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(-40%);
+    color: #fff;
+}
+#hero-area .hero-cover .hero-content-box .hello{
+    font-size: 18px;
+    font-weight: 400;
+}
+#hero-area .hero-cover .hero-content-box .hello .post{
+    font-size: 35px;
+    margin: 20px 0 20 0;
+}
+#hero-area .hero-cover .hero-content-box .hero-desc{
+    font-size: 16px;
+    margin-bottom: 60px;
+    color: #fff;
+}
+#hero-area .hero-cover .hero-content-box .hero-btns .btn{
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+} 
+/* innadition */
+.btn{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    /* border: 2px solid transparent; */
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.btn{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color:#fff ;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    
+} 
+ .btn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f9004d;
+    transition: all 0.05s ease-in-out;
+    transform: scaleX(0);
+    z-index: -1;
+}
+.btn-white{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bolder;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    /* background-color: #fff; */
+    color: #1f1f1f;
+}
+.btn-white button{
+    background-color: #f9004d;
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn-white button:hover{
+    color: #1f1f;
+}
+.btn-white button: hover::before{
+    background-color: #fff;
+  
+}
+.btn-white button:hover::before, .btn-red button:hover::before{
+    transform: scaleY(2);
+}
+.btn-red{
+    /* background-color: #e65f78; */
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    color: #fff;
+    height: 20px;
+    border-radius: 30px;
+    
+    
+}
+.btn-red:hover{
+    color: #fff;
+    transform: translateY(1.2);
+}
+.btn-red:hover::before{
+    background-color: #fff;
+}
+/* about me */
+.section{
+    padding: 100px 0;
+  
+}
+.container2{
+    background-color: black;
+}
+.section-title{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+}
+#about .about-pic{
+    width: 37%;
+    padding: 5px;
+    border: 1px solid #c6c5c7;
+}
+#about .about-pic img{
+    display: block;
+    height: auto;
+    width: 380px;
+    border-radius: 10px;
+}
+#about .about-content{
+    width: 60%;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+#about .about-content h4 span{
+    color: #e65f78;
+}
+#about .about-content .about-subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+}
+#about .about-content .about-desc{
+    margin: 30px 0;
+}
+#about .about-content .about-desc .desc-top{
+    margin-bottom: ;
+}
+.container2 img{
+    height: auto;
+    width: 380px;
+}
