@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techlink Solution</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="preloader">
+        <ul class="spinner">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+       </div>
+    <div class="contain">
+        <header>
+           <div class="navigation">
+               <div class="logo">
+                   <h1> Techlink Solution</h1>
+                   <i class="fas fa-bars" id="ham-menu"></i>
+                </div>
+                <div class="navbar">
+                    <ul id="nav-bar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="../About us/html/aboutus.html">About Us</a></li>
+                        <div class="select-menu">
+                            <div class="select-btn">
+                                <span class="sBtn-text">Department</span>
+                                <i class="fa-solid fa-chevron-down" ></i>
+                            </div>
+                            <ul class="options">
+                                <li class="option">
+                                    
+                                    <span data-target="simpleModal_1" data-toggle="modal" class="option-text">Marketing</span>
+                                    <div id="simpleModal_1" class="modal">
+
+                                        <div class="modal-window">
+                                            <span class="close" data-dismiss="modal">&times;</span>
+                                       <!-- <button data-dismiss="modal">Close</button> -->
+                                            <h3>Marketing</h3>
+                                            <p>Our range of top-tier IT equipment isn't just about processors and hardware; it's about possibilities. It's about ensuring that every keystroke, every click, and every connection is a step towards your success story.
+
+                                                When you choose our products, you're not just investing in technology; you're investing in the confidence that comes from knowing you have a partner dedicated to your progress. From robust servers to lightning-fast networking solutions, we're here to fortify your foundation.</p>
+                                           
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                </li>
+                                <li class="option">
+                                    
+                                    <span  data-target="simpleModal_2" data-toggle="modal" class="option-text">Human resource</span>
+                                    <div id="simpleModal_2" class="modal">
+                                        <div class="modal-window small">
+                                            <span class="close" data-dismiss="modal">&times;</span>
+                                            <h3>Human Resource</h3>
+                                    
+                                            <p>At Techlink ltds, we recognize that our IT equipment isn't just about cutting-edge technology; it's about the people who bring it to life. Our HR department is the cornerstone of our organizational culture, ensuring that every member of our team is not just an employee, but a valued contributor to our shared vision..</p>
+                                            <!-- <button data-dismiss="modal">Close</button> -->
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="option">
+                                    <span  data-target="simpleModal_2" data-toggle="modal" class="option-text">Procurement</span>
+                                    <div id="simpleModal_2" class="modal">
+                                        <div class="modal-window small">
+                                            <span class="close" data-dismiss="modal">&times;</span>
+                                            <h3>Procurement</h3>
+                                    
+                                            <p>At Techlink Ltd., we understand that providing top-tier IT equipment is not just about the products themselves; it's about the seamless processes and partnerships that make it all possible. Our Procurement Team is at the forefront of securing the resources that empower our company to excel in a dynamic and competitive market.</p>
+                                            <button data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="option">
+                                    <span  data-target="simpleModal_2" data-toggle="modal" class="option-text">Accounting</span>
+                                    <div id="simpleModal_2" class="modal">
+                                        <div class="modal-window small">
+                                            <span class="close" data-dismiss="modal">&times;</span>
+                                            <h3>Accounting</h3>
+                                    
+                                            <p>At Techlink Ltds, we understand that providing cutting-edge IT equipment is just one aspect of our mission. Equally important is the financial stability and transparency that underpins our operations. Our Accounting team plays a vital role in ensuring that we not only thrive, but also continue to grow and innovate in this competitive landscape.</p>
+                                            <button data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <li><a href="../Contact Us/html/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+        <div class="slide">
+            <div class="item click-on-image" style="background-image: url(../image/mario-gogh-VBLHICVh-lI-unsplash.jpg);">
+                <div class="content">
+                    <div class="name">Marketing</div>
+                    <div class="dis">Leverages strategic campaigns and promote our innovative IT equipment solutions</div>
+                    <button> see more</button>
+                </div>
+
+            </div>
+            <div class="item click-on-image" onclick="myfunction();" style="background-image: url(../image/kelly-sikkema-xoU52jUVUXA-unsplash.jpg);">
+                <div class="content">
+                    <div class="name">Accounting</div>
+                    <div class="dis">The Accounting team at Techlink Ltds meticulously manages financial operations</div>
+                    <button> see more</button>
+                </div>
+
+            </div>
+            <div class="item click-on-image" style="background-image: url(../image/bruce-mars-xj8qrWvuOEs-unsplash.jpg);">
+                <div class="content">
+                    <div class="name" style="color: #000;">Procurement</div>
+                    <div class="dis"style="color: #000;">The Procurement team at Techlink Ltd. ensures seamless sourcing, cost-effectiveness, and quality assurance for our cutting-edge IT equipment offerings.</div>
+                    <button> see more</button>
+                </div>
+
+            </div>
+            <div class="item click-on-image" style="background-image: url(../image/chris-barbalis-9qlSGW_LgKs-unsplash.jpg);">
+                <div class="content">
+                    <div class="name">Human resource</div>
+                    <div class="dis">fosters a culture of growth and excellence</div>
+                    <button> see more</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="slide-buttons">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <div id="co">
+
+    </div>
+    <section>
+        <!-- <div class="about-content">
+            <video autoplay loop muted id="video-background">
+                <source src="../../Video/video (2160p).mp4" width="100%" type="video/mp4">
+                Add additional source elements for different formats if desired 
+            </video>
+            <h1 style="font-family: Parisienne;">ABOUT US</h1>
+         </div> -->
+         <section id="about-text-image" style="margin-top: 10px; border: none;">
+            <div class="abtext ">
+                <div id="img-about"></div>
+                <div id="text-bx">
+                    <h2>About Us</h2>
+                <h1> Welcome to Techlink Ltds</h1>
+                <p class="animated-text">At Techlink, we understand the importance of reliable and efficient IT 
+                    equipment for businesses. That’s why we offer a wide selection of high-quality
+                     IT solutions to meet the needs of businesses of all sizes. Our team of knowledgeable
+                      professionals is dedicated to providing exceptional customer 
+                      service and support to ensure your business runs smoothly.</p>
+                </div>
+                <div id="text1"></div>
+             </div>
+         </section>
+         <section id="num-about">
+            <h2 id="our-team">Meet Our Great Team</h2>
+            <div class="team">
+
+                <div class="team1 teams hidden">
+                    <img class="image" src="../image/paige-cody-ITTqjS3UpoY-unsplash.jpg" alt="">
+                    <div class="description">
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <button>Contact</button>
+                    </div>
+                
+                </div>
+                <div class="team2 teams hidden">
+                    <img class="image" src="../image/miguelangel-miquelena-Rc-4YdHRrOs-unsplash.jpg" alt="">
+                    <div class="description">
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <button>Contact</button>
+                    </div>
+                
+                </div>
+                <div class="team3 teams hidden">
+                    <img class="image" src="../image/bruce-mars-xj8qrWvuOEs-unsplash.jpg" alt="">
+                    <div class="description">
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <button>Contact</button>
+                    </div>
+
+                </div>
+                <div class="team4 teams hidden">
+                    <img class="image" src="../image/linkedin-sales-solutions-Z4BTpfQx_q4-unsplash.jpg" alt="">
+                    <div class="description">
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <button>Contact</button>
+                    </div>
+                    
+                </div>
+        
+            </div>
+         </section>
+         <div class="slideshow-container">
+
+            <div class="mySlides">
+              <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+              <p class="author">- John Keats</p>
+            </div>
+            
+            <div class="mySlides">
+              <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+              <p class="author">- Ernest Hemingway</p>
+            </div>
+            
+            <div class="mySlides">
+              <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+              <p class="author">- Thomas A. Edison</p>
+            </div>
+            
+            <a class="previous" onclick="plusSlides(-1)">❮</a>
+            <a class="nextto" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            <section id="testimony">
+                <h2 style="text-align: center;">Testimonials</h2>
+                <div class="wrapper">
+                    <div class="box">
+                      <i class="fas fa-quote-left quote"></i>
+                      <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+                      <div class="content">
+                        <div class="info">
+                          <div class="name">Alexa Smith</div>
+                          <div class="job">Designer | Developer</div>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                        </div>
+                        <div class="image">
+                          <img src="../image/microsoft-365-7mBictB_urk-unsplash.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="box">
+                      <i class="fas fa-quote-left quote"></i>
+                      <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+                      <div class="content">
+                        <div class="info">
+                          <div class="name">Steven Chris</div>
+                          <div class="job">YouTuber | Blogger</div>
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                        </div>
+                        <div class="image">
+                            <img src="../image/danny-ocean-ehUYU820lcA-unsplash.jpg" alt="">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-quote-left  quote"></i>
+                      <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+                      <div class="content">
+                        <div class="info">
+                            <div class="name">Kristina Bellis</div>
+                            <div class="job">Freelancer | Advertiser</div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="image">
+                            <img src="../image/paige-cody-ITTqjS3UpoY-unsplash.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+<!-- end of testimony             -->
+            
+<!-- contact -->
+
+         <footer>
+             <div class="footer">
+                 <div class="footer-social-media">
+                     <p> Get connected with us on social networks:</p>
+                     <div class="icons">
+                         <ul>
+                             <li><a href="#"><i class="fa-brands fa-twitter" style="color: #fff;"></i></a></li>
+                             <li><a href="#"><i class="fa-brands fa-instagram" style="color: #fff;"></i></a></li>
+                             <li><a href="#"><i class="fa-brands fa-linkedin" style="color: #fff;"></i></a></li>
+                             <li><a href="#"><i class="fa-brands fa-google-plus-g" style="color: #fff;"></i></a></li>
+                             <li><a href="#"><i class="fa-brands fa-github" style="color: #fff;"></i></a></li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="footer-body">
+                     <div>
+                         <div class="logo loading">
+                             <h1 id="logo-design-footer"> TCL</h1>
+                         </div>
+                         <p style="color: #fff; margin: 20px; line-height: 20px;"> At Techlink, we understand the important of reliable and efficient IT 
+                             equipment for businesses. Thats why we offer a wide selection of high quality
+                             IT solutions to meet the needs of the businesses of all sizes.
+                         </p>
+                     </div>
+                     <div style="position: relative;">
+                         <h1 class="links"> LINKs</h1>
+                         <div class="footer-navbar">
+                             <ul>
+                                 <li><a href="#">Home</a></li>
+                                 <li><a href="#">About Us</a></li>
+                                 <li><a href="#">Department</a></li>
+                                 <li><a href="#">Contact</a></li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div style="position: relative;">
+                         <h2 class="useful-footer-links"> USEFUL LINK</h2>
+                         <div class="footer-usefulink-navbar">
+                             <ul>
+                                 <li><a href="#">Your Account</a></li>
+                                 <li><a href="#">Become an Affiliate</a></li>
+                                 <li><a href="#">Shipping Rates</a></li>
+                                 <li><a href="#">Help?</a></li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div>
+                         <h2 class="footer-contacts">CONTACTs</h2>
+                         <div class="footer-list-contacts">
+                             <ul>
+                                 <li class="footer-address"><span><i class="fa-solid fa-house" style="color: #fff;"></i></span>Rwanda, Kigali</li>
+                                 <li class="footer-address"><span><i class="fa-regular fa-envelope" style="color: #fff;"></i></span>gabirojfleuron@gmail.com</li>
+                                 <li class="footer-address"><span><i class="fa-solid fa-phone-flip" style="color: #fff;"></i></span>+250780259327</li>
+                                 <!-- <li><span></span></li> -->
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="copyright">
+                     <p>&copy; 2023 Techlink ltds owned by GABIRO J Fleuron. All rights reserved</p>
+                 </div>
+             </div>
+          </footer>
+          <button id="scrollToTopBtn" class="scroll-to-top-btn">&#8593;</button>
+          <div id="scrollProgress" class="scroll-progress"></div>
+    </section>
+    <script>
+        // preloader 
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Simulate the loading process
+    setTimeout(function() {
+        document.querySelector('.preloader').style.display = 'none';
+    }, 2000); // Adjust the time (in milliseconds) 
+});
+    // preloader end by here 
+
+        // dropdown 
+
+const optionMenu = document.querySelector(".select-menu"),
+       selectBtn = optionMenu.querySelector(".select-btn"),
+       options = optionMenu.querySelectorAll(".option"),
+       sBtn_text = optionMenu.querySelector(".sBtn-text");
+selectBtn.addEventListener("click", () => optionMenu.classList.toggle("active"));  
+// options.forEach(option =>{
+//     option.addEventListener("click", ()=>{
+//         let selectedOption = option.querySelector(".option-text").innerText;
+//         sBtn_text.innerText = selectedOption;
+//         optionMenu.classList.remove("active");
+//     });
+// });     
+//  ends of dropdown
+
+// modal
+
+document.addEventListener('click', function (e) {
+    e = e || window.event;
+    var target = e.target || e.srcElement;
+
+    if (target.hasAttribute('data-toggle') && target.getAttribute('data-toggle') == 'modal') {
+        if (target.hasAttribute('data-target')) {
+            var m_ID = target.getAttribute('data-target');
+            document.getElementById(m_ID).classList.add('open');
+            e.preventDefault();
+        }
+    }
+
+    // Close modal window with 'data-dismiss' attribute or when the backdrop is clicked
+    if ((target.hasAttribute('data-dismiss') && target.getAttribute('data-dismiss') == 'modal') || target.classList.contains('modal')) {
+        var modal = document.querySelector('[class="modal open"]');
+        modal.classList.remove('open');
+        e.preventDefault();
+    }
+}, false);
+// modal ends 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    const scrollProgress = document.getElementById('scrollProgress');
+
+    // Show/hide the scroll-to-top button based on scroll position
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 100) {
+            scrollToTopBtn.style.display = 'block';
+        } else {
+            scrollToTopBtn.style.display = 'none';
+        }
+
+        // Update scroll progress indicator
+        const totalHeight = document.body.scrollHeight - window.innerHeight;
+        const progress = (window.pageYOffset / totalHeight) * 100;
+        scrollProgress.style.width = `${progress}%`;
+    });
+
+    // Scroll to top when button is clicked
+    scrollToTopBtn.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});
+
+
+        // previous and next of homepage image and its content 
+        let next=document.querySelector('.next');
+                let prev=document.querySelector('.prev');
+                let clickOnImage = document.querySelector('.click-on-image');
+                next.addEventListener('click', function(){
+                    let items = document.querySelectorAll('.item')
+                    document.querySelector('.slide').appendChild(items[0])
+                })
+                prev.addEventListener('click', function(){
+                    let items = document.querySelectorAll('.item')
+                    document.querySelector('.slide').prepend(items[items.length - 1])
+                })
+               function myfunction(){
+                let clickOnImage = document.querySelector('.click-on-image');
+                clickOnImage.addEventListener('click', function(){
+                    let items = document.querySelectorAll('.click-on-image')
+                    document.querySelector('.slide').appendChild(items[0])
+                });
+               }
+        
+                window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.padding = "5px 0px";
+            document.getElementById("logo").style.fontSize = "20px";
+             document.getElementById("navbar").style.background = "#333333";
+             document.getElementById("logo-about-design").style.background = "#333333";
+             document.getElementById("logo").style.color = "#fff";
+             document.getElementById("logo").style.color = "#fff";
+             document.querySelectorAll()
+            } else {
+                document.getElementById("navbar").style.padding = "5px 5px";
+                document.getElementById("logo").style.fontSize = "20px";
+                document.getElementById("logo").style.color = "#000";
+                document.getElementById("logo").style.color = "#000";
+                document.getElementById("logo-about-design").style.background = "#fff";
+                document.getElementById("navbar").style.background = "#fff";
+                
+          }
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            window.addEventListener('scroll', function() {
+                const elements = document.querySelectorAll('.team');
+                elements.forEach(element => {
+                    if (element.getBoundingClientRect().top < window.innerHeight - 100) {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+        });
+        
+        // onload scrolling animation
+        const observer= new IntersectionObserver((entries) =>{
+            entries.forEach((entry) =>
+            {
+                console.log(entry);
+                if(entry.isIntersecting){
+                    entry.target.classList.add('show');
+                }
+                else{
+                    entry.target.classList.remove('show');
+                }
+            });
+        });
+         const hiddenElements = document.querySelectorAll('.hidden');
+         hiddenElements.forEach((el) => observer.observe(el));
+        
+        //  scroll function from top
+        
+        document.addEventListener('DOMContentLoaded', function() {
+              const animatedText = document.querySelector('.animated-text');
+              
+              function checkScroll() {
+                const position = animatedText.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+        
+                if (position < screenPosition) {
+                  animatedText.classList.add('showcontent');
+                }
+              }
+        
+              window.addEventListener('scroll', checkScroll);
+              checkScroll(); // Check initially to see if the element is already in view
+            });
+        
+            // on contact
+        
+            const signUpButton = document.getElementById('signUp');
+            const signInButton = document.getElementById('signIn');
+            const container = document.getElementById('container');
+            
+            signUpButton.addEventListener('click', () => {
+                container.classList.add("right-panel-active");
+            });
+            
+            signInButton.addEventListener('click', () => {
+                container.classList.remove("right-panel-active");
+            });
+
+            // quotes slides 
+
+            var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+// responsiveness 
+let hamMenuIcon = document.getElementById("ham-menu");
+let navBar = document.getElementById("nav-bar");
+let navLinks = navBar.querySelectorAll("li");
+
+hamMenuIcon.addEventListener("click", () => {
+  navBar.classList.toggle("active");
+  hamMenuIcon.classList.toggle("fa-times");
+});
+navLinks.forEach((navLinks) => {
+  navLinks.addEventListener("click", () => {
+    navBar.classList.remove("active");
+    hamMenuIcon.classList.toggle("fa-times");
+  });
+});
+
+
+</script>
+</body>
+</html>

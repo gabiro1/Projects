@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form action="submit.php" method="post">
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <th>Message:</th>
+                <td><textarea name="message" rows="5" cols="40"></textarea></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
